@@ -186,7 +186,6 @@ public class Game extends javax.swing.JFrame {
         jPanel2.add(clear);
         clear.setBounds(20, 290, 100, 40);
 
-        jSeparator1.setBackground(new java.awt.Color(255, 255, 255));
         jSeparator1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.add(jSeparator1);
         jSeparator1.setBounds(10, 260, 240, 10);
@@ -199,7 +198,7 @@ public class Game extends javax.swing.JFrame {
         jLabel12.setForeground(new java.awt.Color(51, 255, 153));
         jLabel12.setText("Correct Trying");
         jPanel2.add(jLabel12);
-        jLabel12.setBounds(490, 80, 90, 16);
+        jLabel12.setBounds(490, 80, 90, 14);
 
         jLabel13.setForeground(new java.awt.Color(51, 255, 153));
         jPanel2.add(jLabel13);
@@ -212,7 +211,7 @@ public class Game extends javax.swing.JFrame {
         jLabel15.setForeground(new java.awt.Color(255, 0, 0));
         jLabel15.setText("Wrong Trying");
         jPanel2.add(jLabel15);
-        jLabel15.setBounds(490, 250, 90, 16);
+        jLabel15.setBounds(490, 250, 90, 14);
 
         jLabel16.setFont(new java.awt.Font("Jokerman", 0, 18)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(82, 200, 62));
@@ -225,16 +224,16 @@ public class Game extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(51, 255, 153));
 
-        jLabel1.setText("This game created by M.hagwan ©");
+        jLabel1.setText("This game created by AhmedRiyadh ©");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(332, 332, 332)
-                .addComponent(jLabel1)
-                .addContainerGap(339, Short.MAX_VALUE))
+                .addGap(298, 298, 298)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(346, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -244,7 +243,7 @@ public class Game extends javax.swing.JFrame {
         );
 
         getContentPane().add(jPanel3);
-        jPanel3.setBounds(0, 430, 856, 20);
+        jPanel3.setBounds(0, 430, 840, 20);
 
         getAccessibleContext().setAccessibleDescription("");
 
